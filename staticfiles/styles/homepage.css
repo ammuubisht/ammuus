@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+   
+
+.intro{
+    min-height: 80vh;
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 70px; 
+    font-weight: 700; 
+    text-align: center;
+    padding-top: 20vh;
+}
+
+h1 span{
+    color: darkorchid;
+}
+
+h3{
+    text-align: center;
+    font-weight: 500;
+    
+    
+}
+
+.casual-info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 12vh;
+}
+
+.casual-info li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+.casual-info li h4{
+    /* text-decoration: underline; */
+    text-align: center;
+    color: white;
+}
+
+.casual-info li span{
+    text-align: center;
+    color: white;
+}
+
+.myself{
+    min-height: 80vh;
+    width: 100%;
+}
+
+h1.myself-heading{
+    text-align: left;
+    padding-left: 18vw;
+    overflow:hidden; 
+    white-space:nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.myself-content{
+    display: flex;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.vl {
+  border-left: 3px solid darkorchid;
+  height: 400px;
+  left: 50%;
+  margin-left: 100px;
+  
+}
+
+.intro-textp{
+    margin-left: 20px;
+}
+
+
+.my-projects{
+    min-height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-projects ul{
+    margin-top: 15vh;
+}
+
+.my-projects li{
+    margin-top: 5vh;
+    text-decoration: none;
+    list-style: none;
+}
+
+.my-projects li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.project-textp{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.my-projects li a:hover{
+    color: darkorchid;
+    font-style: italic;
+}
+
+.project-elements{
+    display: block;
+    line-height: 16px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    h1{
+    font-size: 35px; 
+    font-weight: 700; 
+    text-align: center;
+    padding-top: 20vh;
+    }
+
+    h3{
+        
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    }
+
+    .short-intro{
+        padding: 0 50px;
+    }
+
+    .casual-info{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        min-height: 60vh;
+    }
+
+    .casual-info li{
+        list-style: none;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    
+    .casual-info li h4{
+        /* text-decoration: underline; */
+        text-align: center;
+        color: white;
+    }
+    
+    .casual-info li span{
+        text-align: center;
+        color: white;
+    }
+
+    .vl{
+        opacity: 0;
+        border-left: 0px;
+        height: 0px;
+        left: 0px;
+        margin-left: 0px;
+    }
+
+
+    .myself-content{
+    display: flex;
+    flex-direction: column ;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    }
+
+    h1.myself-heading{   
+    text-align: center; 
+    overflow:unset; 
+    white-space:unset;
+    display: flex;
+    align-items: center;
+    font-size: 30px; 
+    padding-top: 15vh;
+    }
+
+    
+    .myself{
+        align-items: center;
+        min-height: 80vh;
+        width: 100%;
+    }
+
+    .intro-textp{
+    margin-top: 10vh;
+    }
+
+    h1.project-heading{
+        font-size: 40px;
+    }
+
+
+    .my-projects ul{
+        margin-top: 15vh;
+        
+    }
+    
+    .my-projects li{
+        margin-top: 5vh;
+        text-decoration: none;
+        padding-left: 17vw;
+    }
+    
+    .my-projects li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    
+    .project-textp{
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .project-elements{
+        display: block;
+        line-height: 25px;
+        
+    }
+
+    .my-projects ul{
+        margin-top: 10vh;
+    }
+    
+    .my-projects li{
+        margin-top: 5vh;
+        text-decoration: none;
+        list-style: none;
+        width: 90%;
+    }
+    
+    .my-projects li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+
+}

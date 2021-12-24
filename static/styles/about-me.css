@@ -1,0 +1,38 @@
+h1.aboutme-heading{
+    margin-left: 0vw;
+    font-size: 70px;
+    align-items:unset;
+}
+
+
+.aboutme{
+    min-height: 80vh;
+    width: 100%;
+    padding: 0 20vw;
+    margin: auto;
+    margin-top: 10vh;
+    
+}
+
+.aboutme-para{
+    margin-top: 10vh;
+}
+
+.aboutme-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.aboutme-list{
+    list-style: none;
+    margin-top: 5vh;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aboutme-list li{
+    font-size: large;
+}

@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel='stylesheet' href = "{% static 'styles/homepage.css'%}">
+    <link rel='stylesheet' href = "{% static 'styles/navbar.css'%}">
+    <link rel='stylesheet' href = "{% static 'styles/footer.css'%}">
+
+    <title>Contact me</title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <h1>Let's just keep it simple</h1>
+    <div class="my-projects">
+    <ul class="project-elements">
+        <li><a href= "https://github.com/ammuubisht/twitter_sentiment_analysis">-github</li>
+        <li><a href= "https://github.com/ammuubisht/faceMaskDetection">-linkedin</li>
+        <li><a href= "https://github.com/ammuubisht/instabot">-instagram</li>
+        <li><a href= "https://github.com/ammuubisht/Book-recognizer">-twitter</li>
+        <li><a href= "https://github.com/ammuubisht/Book-recognizer">-facebook</li>
+    </ul>   
+</div>
+    
+</body>
+</html>

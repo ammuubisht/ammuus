@@ -1,0 +1,70 @@
+{% extends 'main.html'%}
+{% load static %}
+
+{% block content %}
+    <div class="intro">
+    <h1> Hey There! , <br>I'm <span>Amit Bisht</span> </h1>
+    <hr style="width:40%;
+    height: 4px;
+    background-color:black ;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: none;
+    display: block;"
+    >
+    <div class="short-intro">
+    <h3> A Software Engineer based in Delhi NCR, enthusiastic about Machine learning.
+        <br> I love travelling, photography & exploring things out of comfort zone.</h3>
+        <br>
+        <center>
+            <h3 style="cursor: pointer;">
+                <a href="#myself" style="text-decoration: none;color: black;" >Read More</a>
+            </h3>
+        </center>
+        <center>
+            <i class="fas fa-angle-down fa-2x" onclick="#myself"></i>
+        </center>
+    </div>
+    </div>
+    
+    <ul class = "casual-info">
+        <li><h4>Date of Birth</h4><span>January 23, 2002</span></li>
+        <li><h4>Currently</h4><span>3rd year CS Student</span></li>
+        <li><h4>Experience</h4><span>1 Year (self)</span></li>
+    </ul>
+
+    <div id="myself" class="myself">
+        <h1 class="myself-heading">More About Me</h1>
+        <div class='myself-content'>
+        <img width=280px height=400px src="{% static 'images/collage-web.png'%}"/>
+        <div class="vl"></div>
+        <p class="intro-textp">
+            My name is Amit Bisht, I'm a 3rd year Undergrad Pursuing Bachelors of Technology with Computer Science Major. I've been coding in python language since my Freshman year.<br><br>
+            Over the course of 2 years, I've generated a great amount of interest and expertise in it. To explore more, I got into Machine Learning and that gained my focus. 
+            I'm fluent with Python Libraries such as Pandas, Numpy, Scikit-learn, Matplotlib, Django. 
+            I'm a really optimistic person, I don't get bothered and panicked by pressure works, I love to push my limits. Changes are something that I love to bring when working.
+            <br><br>Coding is meditation to me, the way I enjoy building stuffs and solving problems completely takes me to another realm. 
+            Apart from these, what heals me is travelling and photography. Mountains are my go to every once in a while.
+
+            <br><br>
+        </p>
+        </div>
+    </div>
+
+    <div class="my-projects">
+        <h1 class="project-heading">Projects I've Build </h1>
+        <p class="project-textp">This is a Collection of my work I've made recently including but not limited to Web Development,<br>Machine Learning, and Automation. Feeling great while sharing here.</p>
+        <ul class="project-elements">
+            <li><a href= "https://github.com/ammuubisht/twitter_sentiment_analysis"> twitter sentiment analysis</a><br><br><span>-Analysis of sentiment of tweets dataset.</span></li>
+            <li><a href= "https://github.com/ammuubisht/faceMaskDetection"> face mask detection</a><br><br><span>-Detects if a person is wearing face mask or not.</span></li>
+            <li><a href= "https://github.com/ammuubisht/instabot"> instabot</a><br><br><span>-Performs Instagram Automation Tasks.</span></li>
+            <li><a href= "https://github.com/ammuubisht/Book-recognizer"> book recognizer</a><br><br><span>-Recognizes the Book shown to it.</span></li>
+        </ul>
+    </div>
+   
+{% endblock content %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/bda12985f7.js" crossorigin="anonymous"></script>

@@ -1,0 +1,22 @@
+{% load static %}
+<body>
+<nav>
+    
+    <div class='logo'>
+        <h3><a href="/">Ammuu's</a></h3>
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="{% url 'about-me' %}">About Me</a></li>
+        <li><a href="{% url 'projects' %}">Projects</a></li>
+        
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+</body>
+
+<script src = "{% static 'styles/nav.js' %}"></script>

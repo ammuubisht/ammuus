@@ -220,6 +220,7 @@ h1.myself-heading{
 
     h1.project-heading{
         font-size: 40px;
+        padding-top: 10vh;
     }
 
 
@@ -244,9 +245,9 @@ h1.myself-heading{
     .project-textp{
         text-align: left;
         margin-top: 5vh;
-        width: 100%;
+        width: 80%;
         font-size: 16px;
-        padding: 0 8vw;
+        padding: 0 0;
 
     }
     

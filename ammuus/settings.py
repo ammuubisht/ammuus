@@ -25,7 +25,7 @@ with open(BASE_DIR / 'secret_key.txt') as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://ammuubisht.github.io/ammuus/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ammuus.herokuapp.com']
 
 
 # Application definition

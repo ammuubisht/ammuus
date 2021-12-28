@@ -79,14 +79,15 @@ nav{
         color: black;
         font-weight: 600;
     }
+    
 
     .nav-links{
         position:absolute;
-        height: 92vh;
-        top: 8vh;
+        height: 100%;
+        top: 10vh;
         right: 0px;
         width: 100%;
-        background-color:#191919;
+        background-color: #191919;
         display: none;
         flex-direction: column;
         align-items:center;

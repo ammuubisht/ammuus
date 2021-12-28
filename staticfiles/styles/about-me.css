@@ -2,6 +2,7 @@ h1.aboutme-heading{
     margin-left: 0vw;
     font-size: 70px;
     align-items:unset;
+    color: red;
 }
 
 
@@ -35,4 +36,11 @@ h1.aboutme-heading{
 
 .aboutme-list li{
     font-size: large;
+}
+
+@media screen and (max-width:768px) {
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
 }

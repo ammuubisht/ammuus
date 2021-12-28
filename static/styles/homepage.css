@@ -32,7 +32,7 @@ h3{
 .casual-info{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: #191919;
     height: 12vh;
 }
 
@@ -156,7 +156,7 @@ h1.myself-heading{
     .casual-info{
         display: flex;
         flex-direction: column;
-        background-color: black;
+        background-color: #191919;
         min-height: 60vh;
     }
 
@@ -242,10 +242,12 @@ h1.myself-heading{
     }
     
     .project-textp{
-        text-align: center;
+        text-align: left;
         margin-top: 5vh;
-        font-size: 18px;
         width: 100%;
+        font-size: 16px;
+        padding: 0 8vw;
+
     }
     
     .project-elements{

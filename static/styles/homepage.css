@@ -8,7 +8,19 @@ html {
 .intro{
     min-height: 80vh;
     width: 100%;
+    animation: drop 1s ease-in;
     
+}
+
+@keyframes drop{
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 h1{

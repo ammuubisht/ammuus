@@ -8,7 +8,19 @@ html {
 .intro{
     min-height: 80vh;
     width: 100%;
+    animation: drop 1.5 ease;
     
+}
+
+@keyframes drop{
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 h1{
@@ -32,7 +44,7 @@ h3{
 .casual-info{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: #191919;
     height: 12vh;
 }
 
@@ -156,7 +168,7 @@ h1.myself-heading{
     .casual-info{
         display: flex;
         flex-direction: column;
-        background-color: black;
+        background-color: #191919;
         min-height: 60vh;
     }
 
@@ -220,6 +232,7 @@ h1.myself-heading{
 
     h1.project-heading{
         font-size: 40px;
+        padding-top: 10vh;
     }
 
 
@@ -242,10 +255,12 @@ h1.myself-heading{
     }
     
     .project-textp{
-        text-align: center;
+        text-align: left;
         margin-top: 5vh;
-        font-size: 18px;
-        width: 100%;
+        width: 80%;
+        font-size: 16px;
+        padding: 0 0;
+
     }
     
     .project-elements{
@@ -274,3 +289,51 @@ h1.myself-heading{
 
 
 }
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

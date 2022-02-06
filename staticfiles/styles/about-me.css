@@ -2,7 +2,6 @@ h1.aboutme-heading{
     margin-left: 0vw;
     font-size: 70px;
     align-items:unset;
-    color: red;
 }
 
 
@@ -39,8 +38,47 @@ h1.aboutme-heading{
 }
 
 @media screen and (max-width:768px) {
-    .aboutme{
+    .aboutme-content{
         display: flex;
         flex-direction: column;
     }
+
+    
+    .aboutme-content{
+        display: flex;
+        flex-direction: column ;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        align-items: center;
+        margin-top: 50px;
+        }
+
+    .aboutme-content img{
+        width: 260px;
+        height: 380px;
+
+    }
+
+    h1.aboutme-heading{   
+        text-align: center; 
+        overflow:unset; 
+        white-space:unset;
+        display: flex;
+        align-items: center;
+        font-size: 35px; 
+        padding-top: 10vh;
+    }
+    
+        
+    .aboutme{
+            align-items: center;
+            min-height: 80vh;
+            width: 90%;
+            padding: 0 3vw;
+        }
+    
+    .aboutme-para{
+        margin-top: 10vh;
+        }
 }

@@ -90,7 +90,7 @@ h1.myself-heading{
 
 .vl {
   border-left: 3px solid darkorchid;
-  height: 400px;
+  height: 450px;
   left: 50%;
   margin-left: 100px;
   
@@ -98,6 +98,20 @@ h1.myself-heading{
 
 .intro-textp{
     margin-left: 20px;
+}
+
+.resume-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: darkorchid;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.resume-btn-a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -229,6 +243,7 @@ h1.myself-heading{
     .intro-textp{
     margin-top: 10vh;
     }
+
 
     h1.project-heading{
         font-size: 40px;

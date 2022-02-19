@@ -15,3 +15,6 @@ def projects(request):
 
 def contactMe(request):
     return render(request, 'home/contact-me.html')
+
+def Resume(request):
+    return render(request, 'home/resume.html')

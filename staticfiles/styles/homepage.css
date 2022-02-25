@@ -2,13 +2,14 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #fff;
 }
    
 
 .intro{
     min-height: 80vh;
     width: 100%;
-    animation: drop 1.5 ease;
+    animation: drop 1s ease-in;
     
 }
 
@@ -28,6 +29,7 @@ h1{
     font-weight: 700; 
     text-align: center;
     padding-top: 20vh;
+    color: #191919;
 }
 
 h1 span{
@@ -37,6 +39,7 @@ h1 span{
 h3{
     text-align: center;
     font-weight: 500;
+    color: #505050;
     
     
 }
@@ -90,7 +93,7 @@ h1.myself-heading{
 
 .vl {
   border-left: 3px solid darkorchid;
-  height: 400px;
+  height: 450px;
   left: 50%;
   margin-left: 100px;
   
@@ -98,8 +101,26 @@ h1.myself-heading{
 
 .intro-textp{
     margin-left: 20px;
+    color: #191919;
 }
 
+.resume-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: darkorchid;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.resume-btn-a{
+    text-decoration: none;
+    color: white;
+}
+
+.resume-btn:hover{
+    opacity: 0.8;
+}
 
 .my-projects{
     min-height: 80vh;
@@ -130,6 +151,7 @@ h1.myself-heading{
     text-align: center;
     margin-top: 5vh;
     font-size: 20px;
+    color: #191919;
 }
 
 .my-projects li a:hover{
@@ -140,6 +162,7 @@ h1.myself-heading{
 .project-elements{
     display: block;
     line-height: 16px;
+    color: #191919;
 }
 
 
@@ -229,6 +252,7 @@ h1.myself-heading{
     .intro-textp{
     margin-top: 10vh;
     }
+
 
     h1.project-heading{
         font-size: 40px;

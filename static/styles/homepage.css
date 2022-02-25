@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #fff;
 }
    
 
@@ -28,6 +29,7 @@ h1{
     font-weight: 700; 
     text-align: center;
     padding-top: 20vh;
+    color: #191919;
 }
 
 h1 span{
@@ -37,6 +39,7 @@ h1 span{
 h3{
     text-align: center;
     font-weight: 500;
+    color: #505050;
     
     
 }
@@ -98,6 +101,7 @@ h1.myself-heading{
 
 .intro-textp{
     margin-left: 20px;
+    color: #191919;
 }
 
 .resume-btn{
@@ -114,6 +118,9 @@ h1.myself-heading{
     color: white;
 }
 
+.resume-btn:hover{
+    opacity: 0.8;
+}
 
 .my-projects{
     min-height: 80vh;
@@ -144,6 +151,7 @@ h1.myself-heading{
     text-align: center;
     margin-top: 5vh;
     font-size: 20px;
+    color: #191919;
 }
 
 .my-projects li a:hover{
@@ -154,6 +162,7 @@ h1.myself-heading{
 .project-elements{
     display: block;
     line-height: 16px;
+    color: #191919;
 }
 
 
@@ -303,6 +312,14 @@ h1.myself-heading{
     }
 
 
+}
+.read-more{
+    text-decoration: none;
+    color: black;
+}
+
+.read-more:hover{
+    opacity: 0.8;
 }
 
 .reveal {

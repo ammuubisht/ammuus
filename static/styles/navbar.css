@@ -42,12 +42,17 @@ nav{
     color: black;
     font-size: 18px;
     outline: none;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
 
 
 
 .nav-links a:hover{
-    color: darkorchid;
+    background-color: darkorchid;
+    color: #fff;
+    font-weight: 600;
+
 }
 
 

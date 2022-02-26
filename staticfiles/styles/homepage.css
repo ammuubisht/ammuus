@@ -163,6 +163,8 @@ h1.myself-heading{
     display: block;
     line-height: 16px;
     color: #191919;
+    background-color: rgb(255, 250, 225);
+    padding: 70px 20px;
 }
 
 
@@ -311,7 +313,22 @@ h1.myself-heading{
         font-size: 35px;
     }
 
+    .project-row{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100vw;
+    }
 
+
+}
+.read-more{
+    text-decoration: none;
+    color: black;
+}
+
+.read-more:hover{
+    opacity: 0.8;
 }
 
 .reveal {
@@ -361,3 +378,23 @@ h1.myself-heading{
       opacity: 1;
     }
   }
+
+.project-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+#project-thumbnail{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#project-thumbnail:hover{
+    opacity: 0.9;
+    box-shadow: 0.5px 3px 12px 1px #505050;
+}

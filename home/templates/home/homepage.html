@@ -60,10 +60,17 @@
         <h1 class="project-heading">Projects I've Build </h1>
         <p class="project-textp">This is a Collection of my work I've made recently including but not limited to Web Development,<br>Machine Learning, and Automation. Feeling great while sharing here.</p>
         <ul class="project-elements">
+            {% for project in projects%}
+            <div class="project-row">
+            <li><a href= "{{project.project_url}}" target="_blank">{{project.project_name}}</a><br><br><span>{{project.project_tagline}}</span></li>
+            <img src="{{project.thumbnail.url}}" id="project-thumbnail"/>
+        </div>
+            <!-- <li><a href= "https://github.com/ammuubisht/twitter_sentiment_analysis">Anyth</a><br><br><span>-Photo sharing and Micro Blogging website</span></li>
             <li><a href= "https://github.com/ammuubisht/twitter_sentiment_analysis"> twitter sentiment analysis</a><br><br><span>-Analysis of sentiment of tweets dataset.</span></li>
             <li><a href= "https://github.com/ammuubisht/faceMaskDetection"> face mask detection</a><br><br><span>-Detects if a person is wearing face mask or not.</span></li>
             <li><a href= "https://github.com/ammuubisht/instabot"> instabot</a><br><br><span>-Performs Instagram Automation Tasks.</span></li>
-            <li><a href= "https://github.com/ammuubisht/Book-recognizer"> book recognizer</a><br><br><span>-Recognizes the Book shown to it.</span></li>
+            <li><a href= "https://github.com/ammuubisht/Book-recognizer"> book recognizer</a><br><br><span>-Recognizes the Book shown to it.</span></li> -->
+        {% endfor %}
         </ul>
     </div>
 

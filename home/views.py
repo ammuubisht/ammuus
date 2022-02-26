@@ -1,16 +1,18 @@
 from django.shortcuts import render
+from .models import Project
 
 # Create your views here.
 def homepage(request):
-    context = {}
+    projects = Project.objects.all()
+    context = {'projects':projects}
     return render(request, 'home/homepage.html', context)
 
 def aboutme(request):
     return render(request, 'home/about-me.html')
 
 def projects(request):
-    # project = Project.objects.all()
-    context = {}
+    projects = Project.objects.all()
+    context = {'projects':projects}
     return render(request, 'home/projects.html', context)
 
 def contactMe(request):

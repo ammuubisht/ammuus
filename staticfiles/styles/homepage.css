@@ -152,6 +152,7 @@ h1.myself-heading{
     margin-top: 5vh;
     font-size: 20px;
     color: #191919;
+    font-weight: 400;
 }
 
 .my-projects li a:hover{
@@ -168,6 +169,26 @@ h1.myself-heading{
 }
 
 
+.project-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+
+#project-thumbnail{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#project-thumbnail:hover{
+    opacity: 0.9;
+    box-shadow: 0.5px 3px 12px 1px #505050;
+}
 
 
 @media screen and (max-width:768px){
@@ -193,8 +214,11 @@ h1.myself-heading{
     .casual-info{
         display: flex;
         flex-direction: column;
-        background-color: #191919;
+        background-color: #292929;
         min-height: 60vh;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 15px;
     }
 
     .casual-info li{
@@ -257,7 +281,7 @@ h1.myself-heading{
 
 
     h1.project-heading{
-        font-size: 40px;
+        font-size: 30px;
         padding-top: 10vh;
     }
 
@@ -283,6 +307,7 @@ h1.myself-heading{
     .project-textp{
         text-align: left;
         margin-top: 5vh;
+        margin-left: 20px;
         width: 80%;
         font-size: 16px;
         padding: 0 0;
@@ -316,10 +341,19 @@ h1.myself-heading{
     .project-row{
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        align-items: center;
         width: 100vw;
     }
-
+    
+    #project-thumbnail{
+        margin-top: 5vh;
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    
 
 }
 .read-more{
@@ -379,22 +413,3 @@ h1.myself-heading{
     }
   }
 
-.project-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100vw;
-}
-
-#project-thumbnail{
-    max-width: 50%;
-    max-height: 50%;
-    border-radius: 10px;
-    cursor: pointer;
-
-}
-
-#project-thumbnail:hover{
-    opacity: 0.9;
-    box-shadow: 0.5px 3px 12px 1px #505050;
-}

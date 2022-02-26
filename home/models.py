@@ -1,5 +1,5 @@
 from django.db import models
-from matplotlib.image import thumbnail
+
 
 # Create your models here.
 class Project(models.Model):

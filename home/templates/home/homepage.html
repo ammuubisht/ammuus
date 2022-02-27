@@ -62,7 +62,7 @@
         <ul class="project-elements">
             {% for project in projects%}
             <div class="project-row">
-            <li><a href= "{{project.project_url}}" target="_blank">{{project.project_name}}</a><br><br><span>{{project.project_tagline}}</span></li>
+            <li class="project-info"><a href= "{{project.project_url}}" target="_blank">{{project.project_name}}</a><br><br><span>{{project.project_tagline}}</span></li>
             <img src="{{project.thumbnail.url}}" id="project-thumbnail"/>
         </div>
             <!-- <li><a href= "https://github.com/ammuubisht/twitter_sentiment_analysis">Anyth</a><br><br><span>-Photo sharing and Micro Blogging website</span></li>

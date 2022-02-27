@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
     background-color: #fff;
+    overflow-x: hidden;
 }
    
 
@@ -297,12 +298,7 @@ h1.myself-heading{
         padding-left: 17vw;
     }
     
-    .my-projects li a{
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
-        font-size: 40px;
-    }
+    
     
     .project-textp{
         text-align: left;
@@ -331,12 +327,6 @@ h1.myself-heading{
         width: 90%;
     }
     
-    .my-projects li a{
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
-        font-size: 35px;
-    }
 
     .project-row{
         display: flex;
@@ -344,7 +334,19 @@ h1.myself-heading{
         align-items: center;
         width: 100vw;
     }
-    
+
+    .my-projects li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 26px;
+        
+    }
+
+    .my-projects li span{
+        font-size: 12px;
+    }
+
     #project-thumbnail{
         margin-top: 5vh;
         max-width: 80%;

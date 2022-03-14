@@ -1,0 +1,4 @@
+Procfile
+db.sqlite3
+runtime.txt
+secret_key.txt
